@@ -13,22 +13,38 @@ Dam construction over the past century has dramatically altered our landscapes, 
 * Shapely
 * Contextily
 
+
 ## Data Sources
 ### Figshare Site
 To maximize reproducibility, all of the data used for this project is stored on Figshare. This means that you do not need to download any data prior to running the notebook, the JupyterNotbook script will download the data.
-* Future Hydropower Reservoirs and Dams (FHReD)
-    * url="https://ndownloader.figshare.com/files/22486157"
+
+* Free flowing rivers current Degree of Regulation
+    * url="https://ndownloader.figshare.com/files/23273213"
+* Free flowing rivers future Degree of Regulation
+    * url="https://ndownloader.figshare.com/files/23273216"
+* World Database of Protected Areas - split by continent
+    * url="https://ndownloader.figshare.com/files/23354894"
 * Ramsar Sites
     * url="https://ndownloader.figshare.com/files/22507082"
+* Future Hydropower Reservoirs and Dams (FHReD)
+    * url="https://ndownloader.figshare.com/files/22486157"
 * Country Boundaries
     * url="https://ndownloader.figshare.com/files/22507058"
+* Continent boundaries
+    * url="https://ndownloader.figshare.com/files/23392280"
+* Country ISO3 codes & Continents
+    * url="https://ndownloader.figshare.com/files/23393756"
 
 
 ### Original Data
+* Free Flowing Rivers Current & Future - https://www.nature.com/articles/s41586-019-1111-9
+    * This dataset contains a shapefile with all rivers from around the world and their current and projected degree of regulation.
+* World Database of Protected Areas (WDPA) - https://www.protectedplanet.net/
+    * This dataset contains a shapefile with protected areas from around the world.
 * GlObal geOreferenced Database of Dams (GOODD) - http://globaldamwatch.org/goodd/
     * This dataset contains the geographic locations of dams identified from Google Earth's satellite data. 
 * Global Reservoir and Dam Database (GRand) - http://globaldamwatch.org/grand/
-    * This database collates record for dams and river around the globe form multiple sources.  The data set is urated by McGill University, Canada.
+    * This database collates record for dams and river around the globe form multiple sources.  The data set is curated by McGill University, Canada.
 * Future Hydropower Reservoirs and Dams (FHReD) - http://globaldamwatch.org/fhred/
     * Geographic database of dams > 1MW that are planned or underconstruction.
 * Ramsar Site Database - https://rsis.ramsar.org/)
@@ -39,10 +55,12 @@ To maximize reproducibility, all of the data used for this project is stored on 
 The files currently in the repository comprise our preliminary analysis of the FHReD and Ramsar Site data, done for the spring 2020 Earth Analytics course.
  
 ### Notebooks
-* exploration-notebooks/ea-python-2020-final-project-shepherd-herwehe-long.ipynb: A JupyterNotebook exploring the data for the preliminary analysis.
+* exploration-notebooks/dam-impacts-on-pas-by-length-area-impact-by-country-continent.ipynb: A JupyterNotebook exploring the data for the preliminary analysis.
+* exploration-notebooks/dam-impacts-on-pas-example-visualization.ipynb: A JupyterNotebook exploring the data for the preliminary analysis.
+* exploration-notebooks/explore-proposed-dams-and-ramsar-areas.ipynb A JupyterNotebook exploring the data for the preliminary analysis.
 
 ### Presentations
-* presentations/ea-python-2020-final-project-shepherd-herwehe.ipynb: A JupyterNotebook with a short blog post of the findings of the preliminary analysis.
+* presentations/ea-python-dam-blog.ipynb: A JupyterNotebook with a short blog post of the findings of the preliminary analysis.
 * presentations/ea-python-final-presentation.pptx: A PowerPoint presentation with results from the preliminary analysis.
 
 ## Run Workflow
