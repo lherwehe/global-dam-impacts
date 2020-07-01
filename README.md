@@ -61,7 +61,7 @@ The files in this repository comprise a global analysis of rivers combined with 
 * exploration-notebooks/dam-impacts-on-protected-areas-calc-sam.ipynb: A JupyterNotebook that, for South America, (1) contains functions that combine World Database of Protected Areas and Ramsar Data for a country or continent to create a full protected areas dataset for the desired region (2) calculates the total length of rivers on protected lands and total area of protected lands that are affected by proposed dams by country for a desired continent (3) and provides a map of all current rivers and protected areas in all South America by Degree of Regulation. 
 * exploration-notebooks/dam-impacts-on-protected-areas-calc-africa.ipynb: Same as JupterNotebook above but for Africa 
 * exploration-notebooks/dam-impacts-on-protected-areas-calc-asia.ipynb: Same as JupyterNotebook above but for Asia.
-* exploration-notebooks/dam-impacts-on-protected-areas-visualization.ipynb: A JupyterNotebook that creates three example maps for Burkina Faso, with all rivers stratified by Degree of Regulation, (1) all current rivers and protected areas, (2) all current rivers that overlap protected areas, and (3) all projected future rivers that overlap protected areas.
+* exploration-notebooks/dam-impacts-on-protected-areas-visualization.ipynb: A JupyterNotebook that creates three example maps for one country, with all rivers stratified by Degree of Regulation, (1) all current rivers and protected areas, (2) all current rivers that overlap protected areas, and (3) all projected future rivers that overlap protected areas.
 * exploration-notebooks/explore-proposed-dams-and-ramsar-areas.ipynb A JupyterNotebook exploring the data for a preliminary analysis of FHReD and Ramsar Site data. Use this notebook to better understand proposed dams globally and how they overlap Ramsar protected areas.
 
 ### Presentations
@@ -84,7 +84,7 @@ exploration-notebooks/dam-impacts-on-protected-areas-visualization.ipynb
 
 ## Example Usage
 * Run dam-impacts-on-protected-areass-calc.ipynb: This will produce a pandas dataframe the total length of rivers on protected lands and total area of protected lands that are affected by proposed dams by country for whichever continent you choose. The notebook provdies code for Asia, Africa, and South America, you simply need to uncomment your selected continent and comment out deselected continents (running all three continents at once will likely crash your notebook!).
-* Run dam-impacts-on-protected-areas-visualization.ipynb: This will present an example visualization of proposed dams affecting rivers in Burkina Faso.
+* Run dam-impacts-on-protected-areas-visualization.ipynb: This will present an example visualization of proposed dams affecting rivers in one specific country.
 * Run ea-python-2020-final-project-shepherd-herwehe.ipynb: This will present graphs and analysis of proposed dams globally and an analysis of the area of Ramsar Sites affected by proposed dams for all countries in Africa.
 
 ## References
