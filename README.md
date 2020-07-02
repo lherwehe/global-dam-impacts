@@ -46,9 +46,9 @@ To maximize reproducibility, all of the data used for this project is stored on 
     * Geographic database of dams > 1MW that are planned or under construction.
 * <a href="http://globaldamwatch.org/goodd/">GlObal geOreferenced Database of Dams (GOODD)</a> - 
     * This dataset contains the geographic locations of dams identified from Google Earth's satellite data. 
-* <a href="https://rsis.ramsar.org/">Ramsar Site Database</a> 
+* <a href="https://rsis.ramsar.org/">Ramsar Site Database</a> -
     * This database contains a shapefile of wetland areas of critical importance as identified under the Convention on Wetlands (1971).
-* <a href="https://www.protectedplanet.net/">World Database of Protected Areas (WDPA)</a> portance as identified under the Convention on Wetlands (1971).
+* <a href="https://www.protectedplanet.net/">World Database of Protected Areas (WDPA)</a> -
     * This database collates record for dams and river around the globe form multiple sources. The data set is curated by McGill University, Canada.
 
 ## Repository Files
