@@ -46,11 +46,10 @@ To maximize reproducibility, all of the data used for this project is stored on 
     * Geographic database of dams > 1MW that are planned or under construction.
 * <a href="http://globaldamwatch.org/goodd/">GlObal geOreferenced Database of Dams (GOODD)</a> - 
     * This dataset contains the geographic locations of dams identified from Google Earth's satellite data. 
-* <a href="https://rsis.ramsar.org/">Ramsar Site Database</a> This database collates record for dams and river around the globe form multiple sources. The data set is curated by McGill University, Canada.
+* <a href="https://rsis.ramsar.org/">Ramsar Site Database</a> 
     * This database contains a shapefile of wetland areas of critical importance as identified under the Convention on Wetlands (1971).
 * <a href="https://www.protectedplanet.net/">World Database of Protected Areas (WDPA)</a> portance as identified under the Convention on Wetlands (1971).
-    * This dataset contains a shapefile with protected areas from around the world.
-    
+    * This database collates record for dams and river around the globe form multiple sources. The data set is curated by McGill University, Canada.
 
 ## Repository Files
 The files in this repository comprise a global analysis of rivers combined with protected areas. We compare the current status with the planned future status of rivers, as measured by Degree of Regulation. For context on the primary dataset used (Free Flowing Rivers of the World), including background on Degree of Regulation as a measure of river health,  <a href="https://www.nature.com/articles/s41586-019-1111-9s" target="_blank">see this publication</a>.
