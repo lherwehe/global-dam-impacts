@@ -40,19 +40,16 @@ To maximize reproducibility, all of the data used for this project is stored on 
 
 
 ### Original Data
-* Free Flowing Rivers Current & Future - https://www.nature.com/articles/s41586-019-1111-9
-    * This dataset contains a shapefile with all rivers from around the world and their current and projected degree of regulation.
-* World Database of Protected Areas (WDPA) - https://www.protectedplanet.net/
-    * This dataset contains a shapefile with protected areas from around the world.
-* GlObal geOreferenced Database of Dams (GOODD) - http://globaldamwatch.org/goodd/
+* <a href="https://www.nature.com/articles/s41586-019-1111-91">Free Flowing Rivers Current & Future</a>  - 
+    * This dataset contains a shapefile with all rivers from around the world and their current and projected degree of regulation due to proposed dams.
+* <a href="http://globaldamwatch.org/fhred/">Future Hydropower Reservoirs and Dams (FHReD)</a> - 
+    * Geographic database of dams > 1MW that are planned or under construction.
+* <a href="http://globaldamwatch.org/goodd/">GlObal geOreferenced Database of Dams (GOODD)</a> - 
     * This dataset contains the geographic locations of dams identified from Google Earth's satellite data. 
-* Global Reservoir and Dam Database (GRand) - http://globaldamwatch.org/grand/
-    * This database collates record for dams and river around the globe form multiple sources.  The data set is curated by McGill University, Canada.
-* Future Hydropower Reservoirs and Dams (FHReD) - http://globaldamwatch.org/fhred/
-    * Geographic database of dams > 1MW that are planned or underconstruction.
-* Ramsar Site Database - https://rsis.ramsar.org/)
+* <a href="https://rsis.ramsar.org/">Ramsar Site Database</a> -
     * This database contains a shapefile of wetland areas of critical importance as identified under the Convention on Wetlands (1971).
-    
+* <a href="https://www.protectedplanet.net/">World Database of Protected Areas (WDPA)</a> -
+    * This database collates record for dams and river around the globe form multiple sources. The data set is curated by McGill University, Canada.
 
 ## Repository Files
 The files in this repository comprise a global analysis of rivers combined with protected areas. We compare the current status with the planned future status of rivers, as measured by Degree of Regulation. For context on the primary dataset used (Free Flowing Rivers of the World), including background on Degree of Regulation as a measure of river health,  <a href="https://www.nature.com/articles/s41586-019-1111-9s" target="_blank">see this publication</a>.
