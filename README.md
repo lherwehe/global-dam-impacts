@@ -60,6 +60,7 @@ The files in this repository comprise a global analysis of rivers combined with 
 * final-notebooks/dam-impacts-on-protected-areas-calc-asia.ipynb: Same as JupyterNotebook above but for Asia.
 * exploration-notebooks/dam-impacts-on-protected-areas-visualization.ipynb: A JupyterNotebook that creates three example maps for one country, with all rivers stratified by Degree of Regulation, (1) all current rivers and protected areas, (2) all current rivers that overlap protected areas, and (3) all projected future rivers that overlap protected areas.
 * exploration-notebooks/explore-proposed-dams-and-ramsar-areas.ipynb A JupyterNotebook exploring the data for a preliminary analysis of FHReD and Ramsar Site data. Use this notebook to better understand proposed dams globally and how they overlap Ramsar protected areas.
+* exploration-notebooks/planned_dams_africa.ipynb A JupyterNotebook exploring the impact of dams on Africa.
 
 ### Presentations
 * presentations/blog_final.ipynb: A JupyterNotebook with a short blog post of the findings of the final analysis.
